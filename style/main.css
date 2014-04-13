@@ -20,7 +20,9 @@ h1.title {
   font-weight: bold;
   margin: 0;
   display: block;
-  float: left; }
+  float: left;
+  color: #FF00FF;
+}
 
 @-webkit-keyframes move-up {
   0% {
@@ -107,7 +109,9 @@ a {
   cursor: pointer; }
 
 strong.important {
-  text-transform: uppercase; }
+  text-transform: uppercase; 
+  color: green; 
+}
 
 hr {
   border: none;
@@ -519,7 +523,8 @@ hr {
 
   h1.title {
     font-size: 27px;
-    margin-top: 15px; }
+    margin-top: 15px; 
+  }
 
   .container {
     width: 280px;
